@@ -1,51 +1,52 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002021, month=000000000011, day=000000000010, hour=000000000016, min=000000000011, sec=000000000002)
+    time(year=000000002021, month=000000000011, day=000000000013, hour=000000000021, min=000000000022, sec=000000000016)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000007543, lin=000000000103, lvl=000000000000)
+    $index$(pos=000000007741, lin=000000000109, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=8, Instance=\'SetupDefinition\', Solution=-1, VersionID=364)'='SolutionBlock13'
+	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=10, VersionID=366)'='SolutionBlock11'
+	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=11, VersionID=364)'='SolutionBlock12'
+	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=9, VersionID=364)'='SolutionBlock10'
+$end 'BlockMapName'
 $begin 'SolutionBlock1'
 	ProductName=''
 	CircuitName='HFSSDesign1'
-	VersionID=192
+	VersionID=364
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=248
+	NextUniqueID=443
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='height=\'13.4766418431236mm\' rad=\'14mm\'', ID=246)
+		Map(V='height=\'13mm\' rad=\'13mm\'', ID=361)
 	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
-	MeshAssemVersionID=0
+	MeshAssemVersionID=4
 	$begin 'NextAssemVersionID'
-		NextUniqueID=1
+		NextUniqueID=5
 		MoveBackwards=false
 	$end 'NextAssemVersionID'
 	$begin 'MI'
 	$end 'MI'
-	VersionID2=0
+	VersionID2=365
 $end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=8, Instance=\'SetupDefinition\', Solution=-1, VersionID=192)'='SolutionBlock5'
-	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=10, VersionID=192)'='SolutionBlock3'
-	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=11, VersionID=192)'='SolutionBlock4'
-	'SolutionKey(SimSetup=8, Instance=\'SolutionDefinition\', Solution=9, VersionID=192)'='SolutionBlock2'
-$end 'BlockMapName'
-$begin 'SolutionBlock2'
+$begin 'SolutionBlock10'
 	SolutionName='AdaptivePass'
 	SolutionID=9
-	V=192
+	V=364
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
-		Frequencies(1000000000)
+		Frequencies(4850000000)
 		SolutionType=6
 		CenterFreq=0
 	$end 'Definition'
@@ -54,16 +55,16 @@ $begin 'SolutionBlock2'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock2'
-$begin 'SolutionBlock3'
+$end 'SolutionBlock10'
+$begin 'SolutionBlock11'
 	SolutionName='LastAdaptive'
 	SolutionID=10
-	V=192
+	V=366
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
-		Frequencies(1000000000)
+		Frequencies(4850000000)
 		SolutionType=6
 		CenterFreq=0
 	$end 'Definition'
@@ -72,11 +73,11 @@ $begin 'SolutionBlock3'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock3'
-$begin 'SolutionBlock4'
+$end 'SolutionBlock11'
+$begin 'SolutionBlock12'
 	SolutionName='Sweep'
 	SolutionID=11
-	V=192
+	V=364
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
@@ -90,17 +91,17 @@ $begin 'SolutionBlock4'
 	IsMatrixDataTable=false
 	SweepID=0
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock4'
-$begin 'SolutionBlock5'
+$end 'SolutionBlock12'
+$begin 'SolutionBlock13'
 	SimSetupID=8
 	SimSetupName='Setup1'
-	VersionID=192
+	VersionID=364
 	IsImported=false
 	IsTable=false
 	SolveSetupID=0
-	MeshAssemVersionID=0
+	MeshAssemVersionID=4
 	$begin 'NextAssemVersionID'
-		NextUniqueID=1
+		NextUniqueID=5
 		MoveBackwards=false
 	$end 'NextAssemVersionID'
 	$begin 'ADP'
@@ -109,16 +110,24 @@ $begin 'SolutionBlock5'
 	$end 'SU'
 	$begin 'MI'
 	$end 'MI'
-$end 'SolutionBlock5'
+$end 'SolutionBlock13'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock2(pos=1343, lin=30, lvl=0)
-		SolutionBlock3(pos=1699, lin=48, lvl=0)
-		SolutionBlock4(pos=2056, lin=66, lvl=0)
-		SolutionBlock5(pos=7205, lin=84, lvl=0)
-		BlockMapName(pos=856, lin=23, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		ResponseSurfaceCache(pos=7659, lin=106, lvl=0)
+		SolutionBlock10(pos=1397, lin=31, lvl=0)
+		SolutionBlock11(pos=1755, lin=49, lvl=0)
+		SolutionBlock12(pos=2114, lin=67, lvl=0)
+		SolutionBlock13(pos=7265, lin=85, lvl=0)
+		SolutionBlock1(pos=861, lin=8, lvl=0)
+		BlockMapName(pos=370, lin=1, lvl=0)
+		OptimetricsResults(pos=7605, lin=104, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=7543, lin=103, lvl=0)
+		$index$(pos=7741, lin=109, lvl=0)
 	$end '$index$'
 $end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

@@ -12,4 +12,18 @@ $begin 'SimValueInfos'
 	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=9
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=10
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=11
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
 $end 'SimValueCache'
