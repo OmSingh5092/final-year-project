@@ -1,9 +1,9 @@
 $begin 'CacheDataVersion'
-	DataVersion=11
+	DataVersion=-1
 $end 'CacheDataVersion'
 $begin 'VariableValues'
-	rad='14mm'
-	height='13.4766418431236mm'
-	w2='3mm'
-	w1='3mm'
+	rad='13.74mm'
+	height='13.19mm'
+	w2='2.45mm'
+	w1='2.7mm'
 $end 'VariableValues'

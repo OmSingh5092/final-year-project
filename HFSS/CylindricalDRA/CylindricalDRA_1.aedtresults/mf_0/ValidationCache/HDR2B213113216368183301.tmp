@@ -1,2 +1,12 @@
 $begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='height=\'13.4766418431236mm\' rad=\'14mm\' w1=\'3mm\' w2=\'3.07488931739225mm\''
+		Status=true
+		FileName='VI7B0E2744016463773071.tmp'
+	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='height=\'13.4766418431236mm\' rad=\'14mm\' w1=\'3mm\' w2=\'3mm\''
+		Status=true
+		FileName='VI18E01362416459682361.tmp'
+	$end 'OneValidationResult'
 $end 'ValidationCache'

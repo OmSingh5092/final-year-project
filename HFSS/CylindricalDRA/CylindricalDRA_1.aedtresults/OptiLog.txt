@@ -1,0 +1,201 @@
+
+=== constructing optimizer ===
+
+--- Begin Model Info ---
+# inp variables = 4
+# out variables = 1
+Lower Bounds(inp) follow
+DoubleArr: dim = 4
+array[0] = 0.01
+array[1] = 0.01
+array[2] = 0.0015
+array[3] = 0.0015
+Upper Bounds(inp) follow
+DoubleArr: dim = 4
+array[0] = 0.014
+array[1] = 0.014
+array[2] = 0.0045
+array[3] = 0.0045
+--- Begin ConstraintArr Info ---
+Array dim = 8
+Begin Linear Constraint
+RHS = -0.01
+Coef vector follows: DoubleArr: dim = 4
+array[0] = -1
+array[1] = 0
+array[2] = 0
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.014
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 1
+array[1] = 0
+array[2] = 0
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = -0.01
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = -1
+array[2] = 0
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.014
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = 1
+array[2] = 0
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = -0.0015
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = 0
+array[2] = -1
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.0045
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = 0
+array[2] = 1
+array[3] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = -0.0015
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = 0
+array[2] = 0
+array[3] = -1
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.0045
+Coef vector follows: DoubleArr: dim = 4
+array[0] = 0
+array[1] = 0
+array[2] = 0
+array[3] = 1
+End Linear Constraint
+--- End ConstraintArr Info ---
+Min steps follow
+DoubleArr: dim = 4
+array[0] = 0.000125
+array[1] = 0.000125
+array[2] = 3e-05
+array[3] = 3e-05
+Max steps follow
+DoubleArr: dim = 4
+array[0] = 0.00125
+array[1] = 0.00125
+array[2] = 0.0003
+array[3] = 0.0003
+X-scales follow
+DoubleArr: dim = 4
+array[0] = 2e-33
+array[1] = 2e-33
+array[2] = 2e-33
+array[3] = 2e-33
+Max scaled bondary violations follow
+DoubleArr: dim = 8
+array[0] = 0
+array[1] = 0
+array[2] = 0
+array[3] = 0
+array[4] = 0
+array[5] = 0
+array[6] = 0
+array[7] = 0
+--- End Model Info ---
+
+--- Begin Generic Optimizer Info ---
+Cost limit = 0
+Iter limit = 100
+Act iter # = 0
+InitInstance InstanceListIterator is invalid
+
+BestInstance InstanceListIterator is invalid
+
+--- End Generic Optimizer Info ---
+
+--- Begin OptiMd Info ---
+Noise = 0.0001
+maxStepCountLimit =5
+noSuccessCountLimit =3
+threePointMode = OFF
+variableErrorMode = ON
+--- End OptiMd Info ---
+
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	253.7732488235382
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.014	0.003	0.003	output	254.3975039771729
+UseBestinList	Init:Feasible&Solved	input	0.0135267282463382	0.014	0.003	0.003	output	254.6441716596158
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.0139499135967854	0.003	0.003	output	257.3673090968502
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.014	0.00303756480241093	0.003	output	254.1458837345486
+UseBestinList	Init:Feasible&Solved	input	0.013426555439909	0.014	0.003	0.003	output	254.7990690622281
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.014	0.00296243519758907	0.003	output	254.9789047771488
+UseBestinList	Init:Feasible&Solved	input	0.0134766418431236	0.014	0.003	0.00296243519758907	output	254.3281767068684
+UseBestinList	Init:Feasible&Solved	input	0.0135813134744989	0.014	0.0033	0.0033	output	255.955677360739
+UseBestinList	Init:Feasible&Solved	input	0.0135177485875108	0.014	0.00311781629037528	0.00311781629037528	output	254.8136672531697
+UseInitInst	initUpdate	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	253.7732488235382
+logH	rescale	input	0	0	output	128683654.5484251
+logH	rescale	input	0	1	output	0
+logH	rescale	input	0	2	output	0
+logH	rescale	input	0	3	output	0
+logH	rescale	input	1	1	output	128683654.5484251
+logH	rescale	input	1	2	output	0
+logH	rescale	input	1	3	output	0
+logH	rescale	input	2	2	output	228770941.4194223
+logH	rescale	input	2	3	output	0
+logH	rescale	input	3	3	output	228770941.4194223
+Initial Gradient Approximation:
+calcGrd	0->1	input	0.0135264078630987	0.014	0.003	0.00303756480241093	output	254.0561587237719
+calcGrd	0->1	input	0.0134766418431236	0.0139502339800249	0.003	0.00303756480241093	output	256.3163841975341
+calcGrd	0->1	input	0.0134766418431236	0.014	0.003037324514981322	0.00303756480241093	output	254.4485336243398
+calcGrd	0->1	input	0.0134766418431236	0.014	0.003	0.003074889317392252	output	253.3095827117244
+improveGrd	1->x	input	0.0134268758231485	0.014	0.003	0.00303756480241093	output	254.0972060300071
+improveGrd	1->x	input	0.0134766418431236	0.014	0.002962675485018678	0.00303756480241093	output	254.0333961503958
+improveGrd	1->x	input	0.0134766418431236	0.014	0.003	0.003000240287429607	output	254.3997190467158
+logNoise	center	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	0.3187052409007348
+logGrad	grad	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	-412.4029433713295
+logGrad	error	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	6404.073322725472
+logGrad	grad	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	-51101.84369311795
+logGrad	error	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	16010.18330681358
+logGrad	grad	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	5561.190468940884
+logGrad	error	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	8538.764430300531
+logGrad	grad	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	-14603.48963056703
+logGrad	error	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	8538.764430300531
+grdPnts	center	input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	253.7732488235382
+grdPnts	2:aux1	input	0.0135264078630987	0.014	0.003	0.00303756480241093	output	254.0561587237719
+grdPnts	2:aux2	input	0.0134268758231485	0.014	0.003	0.00303756480241093	output	254.0972060300071
+grdPnts	1:aux1	input	0.0134766418431236	0.0139502339800249	0.003	0.00303756480241093	output	256.3163841975341
+grdPnts	2:aux1	input	0.0134766418431236	0.014	0.003037324514981322	0.00303756480241093	output	254.4485336243398
+grdPnts	2:aux2	input	0.0134766418431236	0.014	0.002962675485018678	0.00303756480241093	output	254.0333961503958
+grdPnts	2:aux1	input	0.0134766418431236	0.014	0.003	0.003074889317392252	output	253.3095827117244
+grdPnts	2:aux2	input	0.0134766418431236	0.014	0.003	0.003000240287429607	output	254.3997190467158
+Initial Rescaling the Hessian:
+logH	rescale	input	0	0	output	245034806.7544083
+logH	rescale	input	0	1	output	0
+logH	rescale	input	0	2	output	0
+logH	rescale	input	0	3	output	0
+logH	rescale	input	1	1	output	128683654.5484251
+logH	rescale	input	1	2	output	0
+logH	rescale	input	1	3	output	0
+logH	rescale	input	2	2	output	671465859.4058594
+logH	rescale	input	2	3	output	0
+logH	rescale	input	3	3	output	116862997.6663592
+Initialization done, Try to do the First Step!
+Entry point in main iteration loop.
+The Actual Positin Is		input	0.0134766418431236	0.014	0.003	0.00303756480241093	output	253.7732488235382
+constrainedQuadOptimum returned:
+Solved
+Proposed step for Line Search		input	1.683038213361882e-06	0	-8.282164150328827e-06	0.0001249624767649688	output	0
+lineSearch	init	input	0.01347832488133696	0.014	0.002991717835849671	0.003162527279175899	output	254.2265801099729
+BTrack	alpha	input	0.01347731927987162	0.014	0.002996666360689846	0.003087863228918374	output	254.5115140899528
+lineSearch returned:
+Maximum iteration count exceeded
+The New Positin Is		input	0.01347731927987162	0.014	0.002996666360689846	0.003087863228918374	output	254.5115140899528
