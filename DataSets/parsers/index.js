@@ -13,7 +13,7 @@ const results = [];
 const parameters = [];
 
 const getSubStr = (str, i, j) => {
-  return str.substring(i, j).replace("mm", "");
+  return str.substring(i, j).replaceAll("m", "");
 };
 
 fs.createReadStream("data.csv")
